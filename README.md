@@ -1,12 +1,15 @@
-# React + Vite
+# React State Management with useContext + useReducer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to manage global state in a React application using **Context API** and **useReducer**.  
+It provides a simple example of handling state updates (Add, Update, Delete) and sharing state across components without prop drilling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Global state management with `useContext`
+- `useReducer` for predictable state updates
+- Example actions: **Add**, **Update**, **Delete**
+- Clean and scalable folder structure
+- Easy to extend for real API calls
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
