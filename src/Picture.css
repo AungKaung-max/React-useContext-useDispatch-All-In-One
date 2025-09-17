@@ -1,0 +1,41 @@
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.background {
+    background-color: aqua;
+}
+
+.background.background--inactive {
+    background-color: transparent; 
+}
+
+.picture {
+    border: 5px solid aqua;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.picture.picture--no-border {
+    border: none;
+}
+
+
+.box{
+    border: 1px solid #000;
+    padding:2rem;
+}
+
+.selected{
+    background-color: aqua;
+}
+
+.section {
+    border: 1px solid #000;
+    padding: 20px;
+}
